@@ -1,0 +1,24 @@
+/* styles.css - Custom styles */
+
+/* Add a custom background color to the main section */
+main {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    padding: 20px; /* Space inside the element */
+    margin: 20px auto; /* Center the element */
+    max-width: 800px; /* Limit the width */
+}
+
+/* Customize buttons */
+button {
+    background-color: #007BFF; /* Blue button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

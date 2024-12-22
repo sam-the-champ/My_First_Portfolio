@@ -1,0 +1,26 @@
+/* base.css - Base styles for all pages */
+
+/* General settings for the webpage */
+body {
+    font-family: Arial, sans-serif; /* Sets the default font */
+    line-height: 1.6; /* Improves readability */
+    margin: 0; /* Removes default browser margin */
+    padding: 0; /* Removes default browser padding */
+    background-color: #f9f9f9; /* Sets a light background color */
+}
+
+/* Styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* Ensures no extra space above/below headings */
+    padding: 10px; /* Adds spacing inside the headings */
+}
+
+/* Link styles */
+a {
+    color: #007BFF; /* Sets link color to blue */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline when hovered */
+}
